@@ -5,8 +5,9 @@ edition = "2021"
 
 [dependencies]
 fitsio = "0.21"
-ndarray = "0.15"
-rayon = "1.8"
-wgpu = "0.17"
+ndarray = "0.16"
+rayon = "1.10"
+wgpu = "24.0"
 futures = "0.3"
-bytemuck = { version = "1.14", features = ["derive"] }
+bytemuck = { version = "1.22", features = ["derive"] }
+clap = { version = "4.5", features = ["derive"] }
