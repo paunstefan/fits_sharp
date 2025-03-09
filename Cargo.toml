@@ -1,0 +1,12 @@
+[package]
+name = "seeing_sorter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fitsio = "0.21"
+ndarray = "0.15"
+rayon = "1.8"
+wgpu = "0.17"
+futures = "0.3"
+bytemuck = { version = "1.14", features = ["derive"] }
